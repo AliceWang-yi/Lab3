@@ -1,8 +1,3 @@
-#!/usr/bin/env python3
-"""Task 2: build the payload for attack/dark-calc.
-
-TODO: replace the empty payload with the bytes required by the lab.
-"""
 import sys
 import struct
 RET_OFFSET = 24

